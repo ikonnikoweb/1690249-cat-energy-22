@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи»
 
 * Студент: [Timur Ikonnikov](https://up.htmlacademy.ru/adaptive/22/user/1690249).
-* Наставник: [Алексей Елькин] (https://htmlacademy.ru/profile/alex_elkin).
+* Наставник: [Алексей Елькин](https://htmlacademy.ru/profile/alex_elkin).
 
 ---
 
