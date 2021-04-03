@@ -1,0 +1,16 @@
+.result__list {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.result__price {
+  margin: 0;
+  margin-top: 34px;
+  margin-bottom: 42px;
+  text-align: center;
+  font-family: "Oswald", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 20px;
+  text-transform: uppercase;
+}

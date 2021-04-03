@@ -1,0 +1,33 @@
+.result-slider__scale-wrapper {
+  margin-top: 23px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.result-slider__scale {
+  box-sizing: border-box;
+  width: 84px;
+  height: 14px;
+  border: 1px solid $special-grey;
+  border-radius: 6px;
+  padding: 3px 6px;
+  background-color: $page-bg;
+}
+
+.result-slider__bar {
+  width: 50%;
+  height: 100%;
+  border-radius: 6px;
+  background-color: $basic-green;
+  display: flex;
+}
+
+.result-slider__button {
+  border: none;
+  background-color: transparent;
+  font-family: "Oswald", "Arial", sans-serif;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 20px;
+}

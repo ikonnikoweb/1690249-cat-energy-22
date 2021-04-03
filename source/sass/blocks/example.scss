@@ -1,0 +1,22 @@
+.example {
+  background-color: $extra-bg;
+}
+
+.example__wrapper {
+  padding: 27px 20px 39px;
+  margin-top: 42px;
+}
+
+.example__title {
+  margin: 0;
+  font-family: "Oswald", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+}
+
+.example__history {
+  color: $special-text;
+  margin-top: 33px;
+  margin-bottom: 25px;
+}
