@@ -1,0 +1,28 @@
+.result-list__item {
+  border: 1px solid $special-grey;
+  border-radius: 3px;
+  text-align: center;
+  width: 124px;
+  position: relative;
+  padding-bottom: 19px;
+  padding-top: 15px;
+  font-family: "Oswald", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.result-list__key {
+  margin: 0;
+  font-size: 12px;
+  line-height: 12px;
+  position: absolute;
+  text-transform: lowercase;
+  font-family: "Arial", sans-serif;
+  width: 57px;
+  padding: 0 15px;
+  text-align: center;
+  top: 49px;
+  left: 18px;
+  background-color: $extra-bg;
+}
