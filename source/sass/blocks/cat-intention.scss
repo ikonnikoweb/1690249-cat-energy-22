@@ -1,0 +1,38 @@
+.cat-intention__item label {
+  position: relative;
+  display: block;
+  cursor: pointer;
+  user-select: none;
+  padding-top: 5px;
+}
+
+.cat-intention__item {
+  margin-bottom: 30px;
+  padding-left: 50px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.cat-intention__radio + label::before {
+  content: "";
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 1px solid $special-grey;
+  top: 0;
+  left: -50px;
+}
+
+.cat-intention__radio:checked + label::after {
+  content: "";
+  position: absolute;
+  top: 9px;
+  left: -41px;
+  width: 12px;
+  height: 12px;
+  background-color: $special-green;
+  border-radius: 50%;
+}

@@ -1,0 +1,51 @@
+.form-item__legend {
+  margin-bottom: 34px;
+}
+
+.form-more__wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-bottom: 34px;
+}
+
+.form-more__item {
+  display: flex;
+  padding-left: 50px;
+  margin-bottom: 20px;
+
+  label {
+    position: relative;
+    display: block;
+    cursor: pointer;
+    user-select: none;
+    font-family: $oswald;
+    text-transform: uppercase;
+    line-height: 30px;
+  }
+
+  input + label::before {
+    content: "";
+    position: absolute;
+    left: -50px;
+    top: 0;
+    width: 30px;
+    height: 30px;
+    border: 1px solid $special-grey;
+    box-sizing: border-box;
+  }
+
+  input:checked + label::after {
+    content: "";
+    position: absolute;
+    top: 7px;
+    left: -44px;
+    width: 18px;
+    height: 14px;
+    background-image: url("../../img/form-icon/cheked.svg");
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}

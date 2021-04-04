@@ -2,12 +2,23 @@
   padding-right: 20px;
   padding-left: 20px;
   padding-top: 27px;
+  padding-bottom: 32px;
 }
 
 .questionnaire__title {
   margin: 0;
+  margin-bottom: 37px;
   font-family: $oswald;
   font-weight: 400;
   font-size: 36px;
   line-height: 36px;
+}
+
+.questionnaire__text {
+  margin: 0;
+  margin-bottom: 39px;
+  font-family: $oswald;
+  font-weight: 400;
+  text-transform: uppercase;
+  max-width: 226px;
 }

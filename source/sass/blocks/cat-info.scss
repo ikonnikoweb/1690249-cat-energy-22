@@ -1,0 +1,42 @@
+.cat-info__item {
+  display: flex;
+  margin-bottom: 13px;
+  align-items: center;
+}
+
+.cat-info__item:last-child {
+  margin-bottom: 0;
+}
+
+.cat-info__item label {
+  margin-right: 12px;
+  flex-shrink: 0;
+}
+
+.cat-info__item input {
+  height: 46px;
+  font-family: $oswald;
+  color: $special-text;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 18px;
+  border: 1px solid $input-border;
+  padding-left: 16px;
+  width: 100%;
+}
+
+.cat-info__item input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.cat-info__item input:focus::-moz-placeholder {
+  color: transparent;
+}
+
+.cat-info__item input:focus:-moz-placeholder {
+  color: transparent;
+}
+
+.cat-info__item input:focus:-ms-input-placeholder {
+  color: transparent;
+}
