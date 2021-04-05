@@ -1,0 +1,45 @@
+.contact-details__legend {
+  padding-top: 26px;
+}
+
+.contact-details__wrapper {
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.contact-details__item {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 14px;
+
+  label {
+    margin-right: 11px;
+    flex-shrink: 0;
+    font-family: $oswald;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: $special-text;
+  }
+
+  input {
+    height: 46px;
+    width: 100%;
+    font-family: $oswald;
+    color: $special-text;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 18px;
+    border: 1px solid $input-border;
+    padding-left: 16px;
+  }
+
+  span {
+    position: absolute;
+    right: 8px;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
