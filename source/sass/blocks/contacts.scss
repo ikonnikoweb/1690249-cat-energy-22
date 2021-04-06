@@ -6,10 +6,11 @@
   align-items: center;
   padding-top: 28px;
   padding-bottom: 26px;
+  background-color: $basic-grey;
 }
 
-.contacts__wrapper--page-form {
-  background-color: $basic-grey;
+.contacts__wrapper--index {
+  background-color: $page-bg;
 }
 
 .contacts__title {
@@ -33,4 +34,9 @@
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 362px;
+}
+
+.contacts__google-map {
+  width: 100%;
+  max-width: 100%;
 }
