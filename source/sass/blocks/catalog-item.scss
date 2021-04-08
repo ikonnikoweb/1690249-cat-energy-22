@@ -3,18 +3,10 @@
 }
 
 .catalog-item__button {
-  text-align: center;
-  font-family: $oswald;
-  line-height: 20px;
   display: block;
-  font-weight: 400;
-  color: $page-bg;
-  background-color: $basic-green;
-  text-decoration: none;
-  text-transform: uppercase;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  line-height: 20px;
   font-size: 16px;
+  padding: 10px 40px;
   margin-top: 22px;
   grid-column: 1 / -1;
 }

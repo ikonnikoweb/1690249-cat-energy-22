@@ -47,13 +47,19 @@
 
 .item-more__button {
   display: block;
-  width: 100%;
   background-color: $basic-grey;
   font-family: $oswald;
   font-weight: 400;
   font-size: 16px;
-  line-height: 40px;
-  text-transform: uppercase;
-  text-decoration: none;
+  line-height: 20px;
   color: $special-text;
+  padding: 10px 40px;
+}
+
+.item-more__button:hover {
+  background-color: $dividing-catalog;
+}
+
+.item-more__button:active {
+  color: rgba($special-text, 0.3);
 }

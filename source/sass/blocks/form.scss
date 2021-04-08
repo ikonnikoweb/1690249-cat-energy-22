@@ -5,11 +5,9 @@
 }
 
 .form__button {
-  width: 280px;
-  height: 40px;
+  // width: 280px;
   border: none;
-  background-color: $basic-green;
-  font-family: $oswald;
-  text-transform: uppercase;
-  color: $page-bg;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 10px 20px;
 }

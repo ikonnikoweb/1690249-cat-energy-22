@@ -34,15 +34,9 @@
 
 .promo__button {
   display: block;
-  box-sizing: border-box;
   margin: 0 auto;
   width: 280px;
-  text-align: center;
-  font-family: "Oswald", "Arial", sans-serif;
-  font-weight: 400;
-  text-transform: uppercase;
-  text-decoration: none;
-  padding: 14px 73px;
-  background-color: $basic-green;
-  color: $page-bg;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 11px 44px;
 }
