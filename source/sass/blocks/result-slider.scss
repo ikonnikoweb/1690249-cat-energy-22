@@ -1,7 +1,6 @@
 .result-slider__scale-wrapper {
-  margin-top: 23px;
+  margin: 50px 0 0 39px;
   display: flex;
-  justify-content: space-around;
   align-items: center;
 }
 
@@ -12,6 +11,7 @@
   border: 1px solid $special-grey;
   border-radius: 6px;
   padding: 3px 6px;
+  margin: 0 11px;
   background-color: $page-bg;
 }
 

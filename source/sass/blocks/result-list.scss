@@ -4,8 +4,8 @@
   text-align: center;
   width: 124px;
   position: relative;
-  padding-bottom: 19px;
-  padding-top: 15px;
+  padding-bottom: 16px;
+  padding-top: 13px;
   font-family: "Oswald", "Arial", sans-serif;
   font-weight: 400;
   font-size: 24px;
@@ -19,10 +19,10 @@
   position: absolute;
   text-transform: lowercase;
   font-family: "Arial", sans-serif;
-  width: 57px;
-  padding: 0 15px;
   text-align: center;
-  top: 49px;
-  left: 18px;
   background-color: $extra-bg;
+  color: $special-text;
+  bottom: -16px;
+  left: 15%;
+  padding: 0 15px;
 }
