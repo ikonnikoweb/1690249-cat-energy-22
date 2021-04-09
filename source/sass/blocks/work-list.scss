@@ -14,7 +14,6 @@
   background-repeat: no-repeat;
   background-position-x: 50%;
   background-position-y: 50%;
-  box-sizing: border-box;
 }
 
 .work-list__item:nth-child(2)::before {
@@ -28,7 +27,6 @@
   background-repeat: no-repeat;
   background-position-x: 50%;
   background-position-y: 50%;
-  box-sizing: border-box;
 }
 
 .work-list__item:nth-child(3)::before {
@@ -42,7 +40,6 @@
   background-repeat: no-repeat;
   background-position-x: 50%;
   background-position-y: 50%;
-  box-sizing: border-box;
 }
 
 .work-list__item:last-child {
@@ -60,9 +57,7 @@
   background-repeat: no-repeat;
   background-position-x: 50%;
   background-position-y: 50%;
-  box-sizing: border-box;
 }
-
 
 .work-list__text {
   margin: 0;
