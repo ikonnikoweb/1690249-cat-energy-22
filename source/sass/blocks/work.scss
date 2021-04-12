@@ -21,3 +21,31 @@
   flex-direction: column;
   flex-wrap: wrap;
 }
+
+@media (min-width: $tablet-width) {
+  .work {
+    padding-bottom: 103px;
+    border-bottom: 1px solid $dividing-mobile;
+  }
+
+  .work__wrapper {
+    padding-left: 30px;
+    padding-right: 105px;
+    margin-top: 45px;
+  }
+
+  .work__title {
+    font-size: 60px;
+    line-height: 60px;
+    margin-bottom: 72px;
+  }
+
+  .work__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    counter-reset: number;
+    column-gap: 135px;
+    row-gap: 136px;
+  }
+
+}
