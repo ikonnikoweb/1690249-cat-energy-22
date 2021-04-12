@@ -24,3 +24,22 @@
     width: auto;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .page-header {
+    padding: 53px 110px 0;
+    position: relative;
+  }
+
+  .page-header::after {
+    content: "";
+    position: absolute;
+    z-index: -2;
+    background-image: url("../../img/header/desctop_bg.png");
+    min-height: 696px;
+    width: 50%;
+    display: block;
+    top: 0;
+    right: 0;
+  }
+}

@@ -86,3 +86,9 @@
     z-index: -1;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .promo__wrapper {
+    padding: 119px 110px 0;
+  }
+}

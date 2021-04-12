@@ -39,3 +39,20 @@
     border-bottom: 2px solid $basic-green;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .nav-list {
+    min-width: 478px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+  }
+
+  .nav-list__item a {
+    color: $page-bg;
+  }
+
+  .nav-list__item--active {
+    border-bottom: 2px solid $page-bg;
+  }
+}
