@@ -6,3 +6,21 @@
 .page-header__logo {
   width: 50%;
 }
+
+@media (min-width: $tablet-width) {
+  .page-header {
+    padding: 24px 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .page-header__wrapper {
+    padding: 0;
+    border-bottom: none;
+  }
+
+  .page-header__logo {
+    width: auto;
+  }
+}
