@@ -31,3 +31,61 @@
   font-size: 16px;
   line-height: 20px;
 }
+
+@media (min-width: $tablet-width) {
+  .result-slider__scale-wrapper {
+    justify-content: center;
+    margin-left: 0;
+  }
+
+  .result-slider__button {
+    padding: 0;
+    font-size: 20px;
+    line-height: 30px;
+    border-bottom: 1px dotted #000000;
+  }
+
+  .result-slider__scale {
+    width: 428px;
+    height: 6px;
+    border-radius: 6px;
+    background-color: $scale-grey;
+    border: none;
+    margin: 0 11px 0 14px;
+    position: relative;
+  }
+
+  .result-slider__bar {
+    width: 34px;
+    height: 34px;
+    background-color: $page-bg;
+    border: 1px solid $special-grey;
+    border-radius: 50%;
+    position: absolute;
+    top: -13px;
+    left: 46%;
+    cursor: pointer;
+  }
+
+  .result-slider__bar::after {
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background-color: $basic-green;
+    border-radius: 50%;
+    top: 38%;
+    left: 37%;
+  }
+
+  .result-slider {
+    margin-left: -30px;
+    margin-right: -30px;
+    padding-bottom: 60px;
+    background-color: $extra-bg;
+  }
+
+  .result-slider__img {
+    text-align: center;
+  }
+}

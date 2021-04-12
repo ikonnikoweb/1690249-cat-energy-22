@@ -26,3 +26,34 @@
   left: 15%;
   padding: 0 15px;
 }
+
+@media (min-width: $tablet-width) {
+  .result-list__item {
+    width: 162px;
+    font-size: 30px;
+    line-height: 37px;
+    margin-right: 42px;
+  }
+
+  .result-list__item:last-child {
+    margin-right: 0;
+  }
+
+  .result-list__key br {
+    display: none;
+  }
+
+  .result-list__key {
+    background-color: $page-bg;
+    font-size: 14px;
+    line-height: 14px;
+    left: 10%;
+    bottom: -6px;
+  }
+
+  .result-list__item:last-child .result-list__key {
+    padding: 0 7px;
+    left: 7%;
+    bottom: -7px;
+  }
+}

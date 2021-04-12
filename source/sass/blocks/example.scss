@@ -20,3 +20,28 @@
   margin-top: 33px;
   margin-bottom: 25px;
 }
+
+@media (min-width: $tablet-width) {
+  .example {
+    background-color: $page-bg;
+  }
+
+  .example__wrapper {
+    margin-top: 0;
+    padding: 43px 30px 0;
+  }
+
+  .example__title {
+    font-size: 60px;
+    line-height: 60px;
+  }
+
+  .example__history {
+    margin-top: 63px;
+    margin-bottom: 54px;
+    font-size: 16px;
+    line-height: 24px;
+    padding-right: 10px;
+  }
+
+}

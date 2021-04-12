@@ -14,3 +14,21 @@
   line-height: 20px;
   text-transform: uppercase;
 }
+
+@media (min-width: $tablet-width) {
+  .result {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .result__list {
+    margin-bottom: 64px;
+  }
+
+  .result__price {
+    margin: 0;
+    text-align: right;
+    font-size: 20px;
+    line-height: 20px;
+  }
+}
