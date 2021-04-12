@@ -29,6 +29,10 @@
   min-width: 140px;
 }
 
+.contacts__street {
+  margin: 0;
+}
+
 .contacts__map {
   background-image: url("../../img/map/map.png");
   background-repeat: no-repeat;
@@ -39,4 +43,27 @@
 .contacts__google-map {
   width: 100%;
   max-width: 100%;
+}
+
+@media (min-width: $tablet-width) {
+  .contacts__wrapper {
+    padding: 62px 72px 51px 71px;
+  }
+
+  .contacts__title {
+    font-size: 20px;
+    line-height: 21px;
+  }
+
+  .contacts__street {
+    margin-top: 6px;
+    margin-bottom: 21px;
+    text-align: right;
+    font-size: 16px;
+  }
+
+  .contacts__adress {
+    text-align: right;
+    font-size: 16px;
+  }
 }
