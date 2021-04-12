@@ -86,5 +86,65 @@
   height: 12px;
   top: 5px;
   right: -41px;
+}
 
+@media (min-width: $tablet-width) {
+  .programs__wrapper {
+    padding: 0px 30px;
+  }
+
+  .programs-list__item {
+    padding: 77px 0 57px 52px;
+    margin-bottom: 30px;
+  }
+
+  .programs-list__title {
+    margin-bottom: 24px;
+    margin-left: 0;
+    font-size: 36px;
+    line-height: 36px;
+  }
+
+  .programs-list__description {
+    margin-bottom: 52px;
+    padding-bottom: 0;
+    border-bottom: none;
+    color: $basic-text;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .programs-list__link {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .programs-list__item:first-child .programs-list__title::before {
+    width: 200px;
+    height: 211px;
+    background-image: url("../img/programs/cat_back_tablet.svg");
+    top: 4px;
+    left: 394px;
+  }
+
+  .programs-list__item:first-child .programs-list__description {
+    width: 377px;
+  }
+
+  .programs-list__item:last-child .programs-list__title::before {
+    width: 268px;
+    height: 200px;
+    background-image: url("../img/programs/cat_back_pro_tablet.svg");
+    top: 14px;
+    left: 359px;
+  }
+
+  .programs-list__item:last-child .programs-list__description {
+    width: 342px;
+  }
+
+  .programs-list__link::after {
+    top: 9px;
+    right: -48px;
+  }
 }
