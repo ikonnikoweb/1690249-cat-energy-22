@@ -71,3 +71,29 @@
     min-height: 400px;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .contacts {
+    position: relative;
+  }
+
+  .contacts__wrapper {
+    position: absolute;
+    max-width: 570px;
+    max-height: 201px;
+    margin-left: 110px;
+    margin-top: 95px;
+  }
+
+  .contacts__title {
+    margin-right: 87px;
+  }
+
+  .contacts__street {
+    text-align-last: left;
+  }
+
+  .contacts__adress {
+    text-align-last: left;
+  }
+}

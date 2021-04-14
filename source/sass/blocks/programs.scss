@@ -90,7 +90,7 @@
 
 @media (min-width: $tablet-width) {
   .programs__wrapper {
-    padding: 0px 30px;
+    padding: 0 30px;
   }
 
   .programs-list__item {
@@ -146,5 +146,28 @@
   .programs-list__link::after {
     top: 9px;
     right: -48px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .programs__wrapper {
+    margin-top: 82px;
+    padding: 0 110px;
+  }
+
+  .programs-list {
+    flex-direction: row;
+  }
+
+  .programs-list__item {
+    padding: 0;
+    min-width: 570px;
+    min-height: 374px;
+    margin-bottom: 0;
+    margin-right: 80px;
+  }
+
+  .programs-list__item:last-child {
+    margin-right: 0;
   }
 }

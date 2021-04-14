@@ -32,3 +32,19 @@
     line-height: 20px;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .result {
+    grid-column: 1 / 2;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .result__list {
+    justify-content: flex-start;
+  }
+
+  .result__price {
+    text-align: left;
+  }
+}

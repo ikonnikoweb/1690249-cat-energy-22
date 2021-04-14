@@ -54,3 +54,10 @@
     border: none;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .page-footer__wrapper {
+    padding-left: 110px;
+    padding-right: 100px;
+  }
+}

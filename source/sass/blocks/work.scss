@@ -47,5 +47,20 @@
     column-gap: 135px;
     row-gap: 136px;
   }
+}
 
+@media (min-width: $desktop-width) {
+  .work {
+    border-bottom: none;
+  }
+
+  .work__wrapper {
+    padding-left: 110px;
+    padding-right: 110px;
+  }
+
+  .work__list {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 80px;
+  }
 }
